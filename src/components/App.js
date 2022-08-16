@@ -32,7 +32,7 @@ const App = () => {
       <input id="year-text-box" type="text" ></input>
       </div>
       <table id="table">
-        {/* <option value="January" >January</option>
+        {<option value="January" >January</option>
         <option value="February" >February</option>
         <option value="March" >March</option>
         <option value="April" >April</option>
@@ -43,7 +43,8 @@ const App = () => {
         <option value="September">September</option>
         <option value="October">October</option>
         <option value="November">November</option>
-  <option value="December">December</option> */}
+        <option value="December">December</option>}
+         
         <tr>
           <td>Sunday</td>
           <td>Monday</td>
