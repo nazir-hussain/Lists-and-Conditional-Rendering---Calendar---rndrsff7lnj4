@@ -1,12 +1,42 @@
 h1 {
     color: #27aedb;
-    text-align: center;
-    }
     
+    }
+*{
+    font-size: 1rem;
+    font-weight: 600;
+}
 
 button{
     color: #27aedb;
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#second{
+    display: flex;
+    justify-content: space-between;
+}
+#table,tr,td{
+    border: 2px solid dodgerblue;
+    border-collapse: collapse;
+    margin: 20px 0px 20px;
+    
+}
+tr{
+    height: 2vw;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 1rem 5rem 1rem;
+    margin: 10px;
 }
